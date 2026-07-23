@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Support — NutriSage</title>
+  <meta name="description"
+    content="Get help with your NutriSage account. Contact support, find answers to common questions, and learn how to manage your app.">
+  <meta name="theme-color" content="#4CAF50">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Support — NutriSage">
+  <meta property="og:description"
+    content="Need help with NutriSage? Contact our support team or browse frequently asked questions.">
+  <meta property="og:site_name" content="NutriSage">
+  <meta property="og:url" content="https://sagegroupapps.com/support/">
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Support — NutriSage">
+  <meta name="twitter:description" content="Need help with NutriSage? Contact our support team or browse FAQs.">
+
+  <link rel="icon" href="../favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="../styles.css">
+</head>
+
+<body>
+  <!-- Navigation -->
+  <header class="site-header">
+    <nav class="nav container" aria-label="Primary">
+      <a class="nav-brand" href="../index.html">NutriSage</a>
+      <button class="nav-toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="nav-menu">
+        <span class="nav-toggle-icon" aria-hidden="true"></span>
+      </button>
+      <ul class="nav-links" id="nav-menu">
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="./" aria-current="page">Support</a></li>
+        <li><a href="../privacy/">Privacy</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section class="hero-page" aria-labelledby="support-title">
+      <div class="container">
+        <h1 id="support-title">NutriSage Support</h1>
+        <p>Need help with your NutriSage account or have questions about the app? We're here to help.</p>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="support-section" aria-labelledby="contact-heading">
+      <div class="container">
+        <div class="card support-card">
+          <h2 id="contact-heading">Contact Support</h2>
+          <p>For assistance, email us anytime.</p>
+          <a class="btn btn-primary" href="mailto:support@sagegroupapps.com"
+            aria-label="Email support at support@sagegroupapps.com">
+            Email Support
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="faq" aria-labelledby="faq-heading">
+      <div class="container">
+        <div class="faq-header">
+          <h2 id="faq-heading">Frequently Asked Questions</h2>
+          <p>Quick answers to common questions about NutriSage.</p>
+        </div>
+
+        <div class="faq-list">
+          <details class="faq-item">
+            <summary>How do I reset my password?</summary>
+            <div class="faq-answer">
+              <p>Open the NutriSage app and go to the sign-in screen. Tap “Forgot Password,” enter the email linked to
+                your account, and follow the reset instructions we send you.</p>
+            </div>
+          </details>
+
+          <details class="faq-item">
+            <summary>How do I delete my account?</summary>
+            <div class="faq-answer">
+              <p>You can request account deletion from the app’s account settings, or email us at
+                support@sagegroupapps.com. We’ll confirm your request and permanently remove your account data according
+                to our privacy practices.</p>
+            </div>
+          </details>
+
+          <details class="faq-item">
+            <summary>How do I update the app?</summary>
+            <div class="faq-answer">
+              <p>Visit the App Store or Google Play on your device, search for NutriSage, and tap Update if a newer
+                version is available. Keeping the app updated ensures you get the latest features and improvements.</p>
+            </div>
+          </details>
+
+          <details class="faq-item">
+            <summary>How do I contact support?</summary>
+            <div class="faq-answer">
+              <p>Email us at support@sagegroupapps.com. Include a short description of your issue and, if possible, your
+                device type and app version so we can help you faster.</p>
+            </div>
+          </details>
+
+          <details class="faq-item">
+            <summary>When will I receive a reply?</summary>
+            <div class="faq-answer">
+              <p>We aim to respond to all support emails within 1–2 business days. During busy periods it may take a
+                little longer, but we’ll get back to you as soon as we can.</p>
+            </div>
+          </details>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <a class="footer-brand" href="../index.html">NutriSage</a>
+      <ul class="footer-links">
+        <li><a href="./">Support</a></li>
+        <li><a href="../privacy/">Privacy Policy</a></li>
+      </ul>
+      <p class="footer-copy">&copy; 2026 NutriSage. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script>
+    (function () {
+      var toggle = document.querySelector(".nav-toggle");
+      var menu = document.getElementById("nav-menu");
+      if (!toggle || !menu) return;
+
+      toggle.addEventListener("click", function () {
+        var open = menu.classList.toggle("is-open");
+        toggle.setAttribute("aria-expanded", open ? "true" : "false");
+        toggle.setAttribute("aria-label", open ? "Close menu" : "Open menu");
+      });
+    })();
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy — NutriSage</title>
+  <meta name="description" content="NutriSage Privacy Policy. Our full privacy policy is being finalized and will be published here shortly.">
+  <meta name="theme-color" content="#4CAF50">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Privacy Policy — NutriSage">
+  <meta property="og:description" content="Our Privacy Policy is currently being finalized and will be published here shortly.">
+  <meta property="og:site_name" content="NutriSage">
+  <meta property="og:url" content="https://sagegroupapps.com/privacy/">
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Privacy Policy — NutriSage">
+  <meta name="twitter:description" content="Our Privacy Policy is currently being finalized and will be published here shortly.">
+
+  <link rel="icon" href="../favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+  <!-- Navigation -->
+  <header class="site-header">
+    <nav class="nav container" aria-label="Primary">
+      <a class="nav-brand" href="../index.html">NutriSage</a>
+      <button class="nav-toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="nav-menu">
+        <span class="nav-toggle-icon" aria-hidden="true"></span>
+      </button>
+      <ul class="nav-links" id="nav-menu">
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="../support/">Support</a></li>
+        <li><a href="./" aria-current="page">Privacy</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section class="hero-page" aria-labelledby="privacy-title">
+      <div class="container">
+        <h1 id="privacy-title">Privacy Policy</h1>
+      </div>
+    </section>
+
+    <!-- Notice -->
+    <section class="privacy-section" aria-labelledby="notice-heading">
+      <div class="container">
+        <div class="card notice-card">
+          <div class="notice-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" role="img">
+              <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+            </svg>
+          </div>
+          <h2 id="notice-heading">Privacy Policy Coming Soon</h2>
+          <p>Our Privacy Policy is currently being finalized and will be published here shortly.</p>
+          <p>Thank you for your patience.</p>
+        </div>
+
+        <p class="privacy-meta"><strong>Last Updated:</strong> Coming Soon</p>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <a class="footer-brand" href="../index.html">NutriSage</a>
+      <ul class="footer-links">
+        <li><a href="../support/">Support</a></li>
+        <li><a href="./">Privacy Policy</a></li>
+      </ul>
+      <p class="footer-copy">&copy; 2026 NutriSage. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script>
+    (function () {
+      var toggle = document.querySelector(".nav-toggle");
+      var menu = document.getElementById("nav-menu");
+      if (!toggle || !menu) return;
+
+      toggle.addEventListener("click", function () {
+        var open = menu.classList.toggle("is-open");
+        toggle.setAttribute("aria-expanded", open ? "true" : "false");
+        toggle.setAttribute("aria-label", open ? "Close menu" : "Open menu");
+      });
+    })();
+  </script>
+</body>
+</html>
